@@ -53,38 +53,38 @@ Various metrics were performed on both models to compare how well the model perf
 
 The baseline score is used to find the most basic model possible and how it will perform for the data we have. We can compare the rest of our metrics to this baseline score to get an idea of how well our model performed.
 
-Baseline score for fitness: 0.5044
-Baseline score for nutrition: 0.4956
+- Baseline score for fitness: 0.5044
+- Baseline score for nutrition: 0.4956
 
 #### Precision
 
 The precision score was found on the test data vs the predicted data for both fitness and nutrition. This score tells you of all the positives that were predicted in the dataset, how many are actually positive.
 
-Precision score for fitness from Random Forest Classifier: 1.0
-Precision score for nutrition from Random Forest Classifier: 0.9004
+- Precision score for fitness from Random Forest Classifier: 1.0
+- Precision score for nutrition from Random Forest Classifier: 0.9004
 
-Precision score for fitness from Logistic Regression: 0.9917
-Precision score for nutrition from Logistic Regression: 0.9333
+- Precision score for fitness from Logistic Regression: 0.9917
+- Precision score for nutrition from Logistic Regression: 0.9333
 
 #### Recall
 
 The recall score was found on the test data vs the predicted data for both fitness and nutrition. This score tells you of all the positives in the dataset, how many did the model predict correctly?  
 
-Recall score for fitness from Random Forest Classifier: 0.9016
-Recall score for nutrition from Random Forest Classifier: 1.0
+- Recall score for fitness from Random Forest Classifier: 0.9016
+- Recall score for nutrition from Random Forest Classifier: 1.0
 
-Recall score for fitness from Logistic Regression: 0.9370
-Recall score for nutrition from Logistic Regression: 0.9912
+- Recall score for fitness from Logistic Regression: 0.9370
+- Recall score for nutrition from Logistic Regression: 0.9912
 
 #### f1 Score
 
 The f1 score was found on the test data vs the predicted data for both fitness and nutrition. This score finds an overall score for your model and deals with taking a balance between your precision and recall score.
 
-f1 score for fitness from Random Forest Classifier: 0.9482
-f1 score for nutrition from Random Forest Classifier: 0.9476
+- f1 score for fitness from Random Forest Classifier: 0.9482
+- f1 score for nutrition from Random Forest Classifier: 0.9476
 
-f1 score for fitness from Logistic Regression: 0.9636
-f1 score for nutrition from Logistic Regression: 0.9614
+- f1 score for fitness from Logistic Regression: 0.9636
+- f1 score for nutrition from Logistic Regression: 0.9614
 
 #### Confusion matrix 
 
